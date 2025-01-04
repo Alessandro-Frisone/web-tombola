@@ -1,0 +1,30 @@
+body {
+    font-family: "Gochi Hand", serif;
+    background-color: #18a494;
+}
+main{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table{
+    width: 900px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.table_cell{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: white;
+    margin: .625rem;
+    text-align: center;
+    Line-height: 4.375rem;
+    font-weight: bold;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    box-shadow: -3px 3px #ccc, -2px 2px #ccc, -1px 1px #ccc;
+}
