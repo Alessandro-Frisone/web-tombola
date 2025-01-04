@@ -31,3 +31,14 @@ main{
     border: 1px solid #ccc;
     box-shadow: -3px 3px #ccc, -2px 2px #ccc, -1px 1px #ccc;
 }
+.main_right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 20px;
+}
+.main_right hr{
+    width: 100%;
+    color: white;
+}
